@@ -1,0 +1,17 @@
+info:
+  contact: {}
+paths:
+  /movies:
+    get:
+      consumes:
+      - application/json
+      description: Get all movies
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+      summary: Get movies
+      tags:
+      - movies
+swagger: "2.0"

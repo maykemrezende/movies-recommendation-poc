@@ -1,0 +1,13 @@
+
+{
+    "dbDriver": "mysql",
+    "dbHost": "localhost",
+    "dbPort": "3306",
+    "dbUser": "root",
+    "dbPassword": "123456",
+    "dbName": "db",
+    "jwtSecret": "secret",
+    "jwtExpiresIn":300,
+    "rootUrl": "http://localhost:8080",
+    "apiPort": "8080"
+}
